@@ -54,20 +54,6 @@ bot_api_key = YOUR_BOT_API_KEY
 default_chat_id = YOUR_DEFAULT_CHAT_ID
 ```
 
-### Example
-
-Sending a text message:
-
-```bash
-telegram_bot --mode text --message "This is a test message."
-```
-
-Sending a document:
-
-```bash
-telegram_bot --mode document --file example.pdf --message "Here is the document you requested."
-```
-
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
